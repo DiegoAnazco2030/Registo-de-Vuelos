@@ -51,6 +51,10 @@ public class Main {
         planeRepo.save(plane4);
         System.out.println("¡Bienvenido al Sistema de Vuelos!");
 
+        /*
+        En los controllers se debe recibir las interfaces de los servicios mas no la clase que los implementa.
+         */
+
         do {
             Menu.mainMenu();
 

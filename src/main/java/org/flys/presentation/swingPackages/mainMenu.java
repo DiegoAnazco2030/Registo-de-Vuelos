@@ -1,7 +1,7 @@
 package org.flys.presentation.swingPackages;
 
 import javax.swing.*;
-import org.flys.presentation.swingPackages.fligthMenu.fligthManagmentMenu;
+// import org.flys.presentation.swingPackages.fligthMenu.fligthManagmentMenu;
 
 public class mainMenu {
     private JPanel mainMenuPanel;
@@ -11,8 +11,8 @@ public class mainMenu {
 
     public mainMenu() {
         fligthManagmentButton.addActionListener(e-> {
-            new fligthManagmentMenu().setVisible(true);
-            this.dispose();
+            // new fligthManagmentMenu().setVisible(true);
+            // this.dispose();
         });
     }
 }
